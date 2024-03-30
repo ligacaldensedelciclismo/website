@@ -1,0 +1,31 @@
+/* pantalla medias */
+
+@media(max-width: 768px){
+    .servicios-fila{
+        width: 100% !important;
+        text-align: center;
+    }
+
+
+}
+
+/* pantalla pequelas  */
+
+@media(max-width:576px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+
+    .fs-6{
+        font-size: 12px !important;
+    }
+
+    table{
+        width: 100% !important;
+    }
+
+    table td{
+        font-size: 10px;
+    }
+}
